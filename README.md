@@ -18,7 +18,7 @@ To send message to your Telegram-account you should make a simple POST-request t
 There is only one custom function - sendMessage(), it has 2 required args and one additional:
 1 - ID of the chat where message will be delivered (it can also be a group chat)
 2 - Text to send
-3 - Markdown format. It can be empty, Markdown - *bold*, _italic_, [link_name](link_url) or HTML.
+3 - Markdown format. It can be empty, Markdown or HTML
 
 
 This simple script is also useful as a notifier. For example, some torrent-clients allow you to run a program when downloading is completed. Replace POST-variable on GET (line #!!!), and you'll be able to do a simple GET-request using wget, cUrl etc. for example:
